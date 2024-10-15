@@ -11,8 +11,13 @@
 
     <!-- Delimitador de abertura -->
     <?php
-
+    echo "Olá!";
+    echo "<p>Programador Web</p>";
+    echo "<p style='color:red'>Senac Penha</p>";
+    echo "<p style=\"color:red\">Senac Penha</p>";
     ?>
+    <!-- Delimitador de fechamento -->
 
+    
 </body>
 </html>
