@@ -32,6 +32,26 @@
     ];
 ?>
 
+    <h2>Versão de saída usando array NUMÉRICO/INDEXADO</h2>
+
+    <ol>
+        <li>Nome: <?=$dados1[0]?> </li>
+        <li>Idade: <?=$dados1[2]?> anos </li>
+        <li>Cidade: <?=$dados1[3]?></li>
+        <li>Celular: <?=$dados1[4][1]?> </li>
+    </ol>
+    
+    <hr>
+
+    <h2>Versão de saída usando array ASSOCIATIVO</h2>
+
+    <ol>
+        <li>Nome: <?=$dados2["usuario"]?></li>
+        <li>Idade: <?=$dados2["idade"]?> anos</li>
+        <li>Cidade: <?=$dados2["cidade"]?></li>
+        <li>Celular: <?=$dados2["telefones"][1]?></li>
+    </ol>
+
     </div>
 </body>
 </html>
