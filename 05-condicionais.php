@@ -75,6 +75,7 @@ if($produto == "Ultrabook"){
 ?>
 <p>Garantia de <?=$garantiaB?> anos.</p>
 
+    <?php include "redes-sociais.html" ?>
 
 </div>
 
